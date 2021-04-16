@@ -1,0 +1,14 @@
+[package]
+name = "backend"
+version = "0.1.0"
+authors = ["Anna Konopka <kernelgonnapanic@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+diesel = { version = "1.4.4", features = ["postgres", "r2d2"] }
+dotenv = "0.15.0"
+serde = "1"
+r2d2 = "0.8.9"
